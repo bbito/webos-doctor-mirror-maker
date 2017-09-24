@@ -1,0 +1,2 @@
+# https://unix.stackexchange.com/questions/72240/download-files-and-create-same-file-structure-as-the-source
+wget -x -nH -i webos-doctor-url-list-palm-domains.txt
