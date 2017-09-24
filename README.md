@@ -7,6 +7,7 @@ So you want your own mirror of webOS Doctor files downloaded directly from the
 active links at: http://webos-internals.org/wiki/WebOS_Doctor_Versions
 
 
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your 
@@ -18,8 +19,10 @@ These scripts rely on `wget` and they are only tested on Linux where most
 (all?) distributions include it. They might run on MacOS if `wget` has been 
 installed.
 
-The full list of webOS Doctor jar files occupy XXX GB of space, so choose a 
+The full list of webOS Doctor jar files occupy 11.2GB of space, so choose a 
 location with at least that amount of free space!
+
+You will also need some time, it took me a little over 2 hours on 24 Sept 2017
 
 ### Installing
 
@@ -63,6 +66,14 @@ or
 ```
 
 The chosen script will run showing progress and/or errors in the terminal.
+
+It can be difficult to see how many Doctors have been downloaded so far from 
+the active terminal, so you can also check progress with a new terminal opened 
+inside your new "webosdoctor" folder with:
+```
+find -type f | wc -l
+```
+That will give you a count of files downloaded so far.
 
 ## Authors
 
