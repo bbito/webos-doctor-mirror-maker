@@ -1,2 +1,3 @@
-# https://unix.stackexchange.com/questions/72240/download-files-and-create-same-file-structure-as-the-source
+#!/bin/bash
+# Downloads all 54 webOS Doctor files available as of 24 Sept 2017
 wget -x -nH -i webos-doctor-url-list-palm-domains.txt
